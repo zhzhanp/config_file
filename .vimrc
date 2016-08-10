@@ -18,7 +18,7 @@ Plugin 'gmarik/Vundle.vim'
 call vundle#end()            " required
 filetype plugin indent on    " required
 
-:set number
+set number
 colorscheme desert
 
 set tabstop=4
@@ -31,3 +31,4 @@ set fileformat=unix
 
 Bundle 'Valloric/YouCompleteMe'
 Plugin 'scrooloose/nerdtree'
+Plugin 'Raimondi/delimitMate'
